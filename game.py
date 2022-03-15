@@ -21,12 +21,10 @@ def guessingTheWord(keyword):
     if(''.join(arrAns) == keyword.lower()):
         print("You found it!")
     else:
-        print("Guess next time!")
+        print("Better luck next time!")
 
 
 words = ['Laugh', 'Watch', 'Close', 'Agent', 'Arise']
 keyword = choosingWord(words)
 print(keyword)
 guessingTheWord(keyword)
-
-
